@@ -1,0 +1,13 @@
+.main
+{
+    background-color:gray;
+    display: table;
+    margin: auto;
+}
+
+img
+{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+}
