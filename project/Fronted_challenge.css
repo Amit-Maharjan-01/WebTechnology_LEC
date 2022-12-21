@@ -1,0 +1,176 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+.header img
+{
+   height: 100vh;
+   width: 100%;
+   position: relative; 
+}
+.logo a img
+{
+    position: absolute;  top: 0%; left: 0%;
+    height: 50px;
+    width: 90px;
+    display: inline-block;
+}
+
+.nav-links
+{
+    position: absolute; top: 0%; right: 0%;
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.nav-links ul li a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: purple;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+
+.text-box
+{
+    width: 80%;
+    color:gold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1
+{
+    font-size: 60px;
+}
+
+.text-box p
+{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: gold;
+}
+
+.hero-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover
+{
+    border: 1px solid purple;
+    background: purple;
+    transition: 1s;
+}
+
+/* for Topup Mnue */
+
+.Card-Topup
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: black;
+}
+.Card-Topup h1
+{
+    font-size: 36px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.Card-Topup a
+{
+    display: inline-block;
+    text-decoration: none;
+    color:green;
+    border: 1px solid green;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: violet;
+    position: relative;
+    cursor: pointer;
+}
+
+.Card-Topup a:hover
+{
+    border: 1px solid orange;
+    background: orange;
+    transition: 0.8s;
+}
+
+.Order
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: black;
+}
+.Order h1
+{
+    font-size: 36px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.Item ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.Item ul li a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid green;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: green;
+    position: relative;
+    cursor: pointer;
+}
+
+.Item ul li a:hover
+{
+    border: 1px solid orange;
+    background: orange;
+    transition: 0.8s;
+}
