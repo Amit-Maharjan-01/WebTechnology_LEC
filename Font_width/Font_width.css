@@ -1,0 +1,59 @@
+
+:root
+{
+    font-size: 16px;
+}
+/* .EM-size p
+{
+    font-size: 0.5rem;
+}
+
+.Rem-size p
+{
+    font-size: 1rem;
+} */
+
+.auto h1
+{
+ border: 2px solid black;
+}
+
+.pixel h1
+{
+    border: 2px solid black;
+    width: 50px;
+}
+
+.half
+{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.percent
+{
+    border: 2px solid black;
+    width: 100%;
+}
+
+.percent:after
+{
+    content: " "; 
+    clear: both;
+    display: table;
+}
+
+.d p
+{
+    width: 50%;
+    /*border: 2px solid black;*/
+    float: left;
+}
+
+.e p
+{
+    width: 50%;
+    /*border: 2px solid black;*/
+    float: right;
+}
+
